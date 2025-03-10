@@ -1,0 +1,23 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: KDE.Kaidan
+PackageVersion: master
+InstallerType: nullsoft
+UpgradeBehavior: install
+ProductCode: Kaidan
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-4811-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: E37202D369361C0CEF32138DF4A4BE8A75AA3241EB7D9B106E9BC208E182FC77
+  InstallerSwitches:
+    Custom: /CurrentUser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-4811-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: E37202D369361C0CEF32138DF4A4BE8A75AA3241EB7D9B106E9BC208E182FC77
+  InstallerSwitches:
+    Custom: /AllUsers
+ManifestType: installer
+ManifestVersion: 1.9.0
