@@ -26,17 +26,12 @@ Tags:
 - editor
 - programming
 ReleaseNotes: |-
-  Cascade Memories, Web Search and Docs
+  Patch Fixes
 
-  Improvements
-  - Cascade Web search now includes the website description and uses page rank to determine relevance
-  - Improvements to Cascade Auto-Generated Memories (Beta)
-
-  Fixes
-  - Fixed input lag in long Cascade conversations
-  - Increased precision when Cascade makes code edits
-  - Fixed issues around Cascade edits with .gitignore files
-  - Fixed Tab to Jump Quick Setting configuration
+  Patch Fixes
+  - Fixes to Windsurf Previews where certain routes would not load.
+  - Fixes to open Cascade shortcuts (cmd/ctrl+shift+L)
+  - Re-added new settings configs to new settings panel (proxy settings, index size)
 ReleaseNotesUrl: https://codeium.com/changelog
 PurchaseUrl: https://codeium.com/pricing
 Documentations:
