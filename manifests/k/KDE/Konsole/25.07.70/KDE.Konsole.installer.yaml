@@ -9,14 +9,14 @@ ProductCode: Konsole
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/utilities/konsole/master/windows/konsole-master-4025-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 48DA85C8C29000824B46EA19306FDA918508C819243D52CB9C581B9C994CAA88
+  InstallerUrl: https://cdn.kde.org/ci-builds/utilities/konsole/master/windows/konsole-master-4056-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 176428993636A62AED0A17B46B5FD6A1164220918FB1B7AA844948A1227E3C0A
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/utilities/konsole/master/windows/konsole-master-4025-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 48DA85C8C29000824B46EA19306FDA918508C819243D52CB9C581B9C994CAA88
+  InstallerUrl: https://cdn.kde.org/ci-builds/utilities/konsole/master/windows/konsole-master-4056-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 176428993636A62AED0A17B46B5FD6A1164220918FB1B7AA844948A1227E3C0A
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
