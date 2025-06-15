@@ -1,0 +1,38 @@
+# Created with komac v2.12.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: Zen-Team.Zen-Browser.Twilight
+PackageVersion: 1.14t
+InstallerType: exe
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+InstallerSwitches:
+  Silent: /S /DesktopShortcut=false
+  SilentWithProgress: /S /DesktopShortcut=false
+UpgradeBehavior: install
+Protocols:
+- http
+- https
+- mailto
+FileExtensions:
+- avif
+- htm
+- html
+- pdf
+- shtml
+- svg
+- webp
+- xht
+- xhtml
+ReleaseDate: 2025-06-14
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/zen-browser/desktop/releases/download/twilight/zen.installer.exe
+  InstallerSha256: 2B722501E02C89CDDAE63F7024284C8CD22143911E3BDADA66A32A9456B3F94F
+- Architecture: arm64
+  InstallerUrl: https://github.com/zen-browser/desktop/releases/download/twilight/zen.installer-arm64.exe
+  InstallerSha256: BF9841D1A457206BE961F693D48F8D3F5B45936DF64AC8F6C4F5D566FC79B86E
+ManifestType: installer
+ManifestVersion: 1.10.0
